@@ -1,0 +1,174 @@
+
+
+body {
+	color: #df389c;
+	background-color: #52154E;
+	}
+	
+img { 
+	max-width: 100%;
+	}
+	
+	#container {
+	width: 100%; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	text-align: center;
+}
+
+nav {
+	font-family: Copperplate gothic bold;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -1.5em;
+} 
+
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+nav li {
+	background-color: #DAE0F2;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+
+nav li a {
+	color: #df389c;
+	text-decoration: none;
+} 
+
+.mobile {
+	display: inline;
+} 
+
+.desktop {
+	display: none;
+}
+
+main {
+	display: block;
+	font-family: Copperplate gothic bold;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	border-radius: 2em;
+	background-color: #DAE0F2;
+	opacity: 0.85;
+}
+
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+	color: #DAE0F2;
+} 
+
+@media only screen and (min-width: 660px) { 
+
+	nav {
+		font-family: Copperplate gothic bold;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-align: center;
+		margin-top: -1.5em;
+	}
+
+	nav li { 
+		display: inline;
+		float: left;
+		margin-left: 1%;
+		margin-right: 1%;
+		padding-left: 0;
+		padding-right: 0;
+		width: 18%;
+		white-space: nowrap;
+		border-radius: 0;
+		background-color: transparent;
+	}
+	
+	nav li a { 
+	color: #df389c;
+	}
+	
+	main {
+		clear: left;
+		margin-top: -0.3em;
+		border-radius: 2em;
+		overflow: auto;
+	}
+	
+	main li {
+		list-style-type: none;
+	}
+	
+	.mobile {
+		display: none;
+	} 
+	
+	.desktop {
+		display: inline;
+	}
+	
+	.equip {
+		display: inline;
+		float: left;
+		margin-right: 1.5em;
+	}
+	
+	.items {
+		display: block;
+		list-style-position: inside;
+	}
+	
+	dt {
+		font-weight: bold;
+		margin-top: 0.7em;
+	}
+	
+}
+
+@media only screen and (min-width: 830px) {
+	
+	nav {
+	font-family: Copperplate gothic bold;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -1.5em;
+	} 
+	
+	#container {
+		background-color: #52154E;
+	}
+	
+	header {
+		text-align: center;
+	}
+	
+	nav li a:link {
+		color: #df389c;
+	}
+	
+	nav li a:visited {
+		color: #ffcdec;
+	}
+	
+	nav li a:hover {
+		color: #ff81d0;
+		font-style: italic; 
+	}
+	
+	main {
+		background-color: #DAE0F2;
+	}
+	
+}
